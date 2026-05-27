@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Water & Fire Pokédex</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="pokebola"></div>
+
+        <h1>Water & Fire Pokédex</h1>
+
+        <p>
+            Pokémons de Água e Fogo
+            da 1ª e 2ª Geração
+        </p>
+
+        <!-- PESQUISA -->
+
+        <input
+        type="text"
+        id="search"
+        placeholder="Pesquisar Pokémon..."
+        >
+
+    </header>
+
+    <!-- LOADING -->
+
+    <div id="loading">
+        Carregando Pokémons...
+    </div>
+
+    <!-- CONTAINER -->
+
+    <main>
+        <section id="pokemon-container"></section>
+    </main>
+
+    <!-- MODAL -->
+
+    <div id="modal" class="hidden">
+
+        <div class="modal-content">
+
+            <span id="close">&times;</span>
+
+            <img id="modal-img">
+
+            <h2 id="modal-name"></h2>
+
+            <p id="modal-type"></p>
+
+            <p id="modal-height"></p>
+
+            <p id="modal-weight"></p>
+
+            <p id="modal-ability"></p>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            Projeto desenvolvido para
+            Web Development Front-End
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
